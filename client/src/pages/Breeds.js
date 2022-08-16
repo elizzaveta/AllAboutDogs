@@ -1,10 +1,10 @@
 import React from 'react';
+import InProgress from "./InProgress";
 
 const Breeds = () => {
     return (
-        <div>
-            Search Breed
-        </div>
+        <InProgress/>
+
     );
 };
 

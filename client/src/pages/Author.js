@@ -1,10 +1,10 @@
 import React from 'react';
+import InProgress from "./InProgress";
 
 const Author = () => {
     return (
-        <div>
-            Author
-        </div>
+        <InProgress/>
+
     );
 };
 

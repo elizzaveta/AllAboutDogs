@@ -1,10 +1,10 @@
 import React from 'react';
 import InProgress from "./InProgress";
 
-const Auth = () => {
+const About = () => {
     return (
         <InProgress/>
     );
 };
 
-export default Auth;
+export default About;

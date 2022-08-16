@@ -1,33 +1,39 @@
 import React from 'react';
 import {AppBar, Box, Button, Container, ThemeProvider, Toolbar, Typography} from "@material-ui/core";
 import {theme} from "../styles/Theme";
+import {Link} from "react-router-dom";
 
 // may be improved? + add adaptivity
 const Header = () => {
     return (
         <ThemeProvider theme={theme}>
             <AppBar color='primary' elevation={0}>
-                <Container fixed>
+                <Container>
                     <Box sx={{display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '10px'}}>
-                        <Box sx={{display: 'flex', justifyContent: 'space-between', width:'50%'}}>
+                        <Box sx={{display: 'flex', justifyContent: 'space-between', width: '50%'}}>
                             <Typography variant='h2'>
-                                All About Dogs
+                                <Link to='/'>All About Dogs</Link>
                             </Typography>
-                            <Box sx={{display: 'flex', alignItems: 'center', width:'50%', justifyContent: 'space-between'}}>
+                            <Box sx={{
+                                display: 'flex',
+                                alignItems: 'center',
+                                width: '50%',
+                                justifyContent: 'space-between'
+                            }}>
                                 <Typography variant='h3'>
-                                    Breeds
+                                    <Link to='/breeds'>Breeds</Link>
                                 </Typography>
                                 <Typography variant='h3'>
-                                    Blog
+                                    <Link to='/blog'>Blog</Link>
                                 </Typography>
                                 <Typography variant='h3'>
-                                    About
+                                    <Link to='/about'>About</Link>
                                 </Typography>
                             </Box>
                         </Box>
                         <Box>
                             <Typography variant='h3'>
-                                Log in
+                                <Link to='/login'>Log in</Link>
                             </Typography>
                         </Box>
                     </Box>

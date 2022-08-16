@@ -2,3 +2,10 @@
     font-family: 'Raleway';
     src: local('Raleway'), url(styles/fonts/Raleway-Regular.woff2) format('woff2');
 }
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

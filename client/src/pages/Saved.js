@@ -1,10 +1,9 @@
 import React from 'react';
+import InProgress from "./InProgress";
 
 const Saved = () => {
     return (
-        <div>
-            Saved
-        </div>
+        <InProgress/>
     );
 };
 
