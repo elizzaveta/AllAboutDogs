@@ -1,0 +1,18 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.leftContentWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.navigationItemsWrapper{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+}
