@@ -14,7 +14,7 @@ import Author from "./pages/Author";
 import Saved from "./pages/Saved";
 import Breeds from "./pages/Breeds";
 import BreedInfo from "./pages/BreedInfo";
-import Landing from "./pages/Landing";
+import Landing from "./pages/Landing/Landing";
 import Blog from "./pages/Blog";
 import About from "./pages/About";
 

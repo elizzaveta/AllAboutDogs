@@ -1,0 +1,13 @@
+.gridItem {
+    display: flex;
+    align-items: center;
+}
+.textWrapper{
+    height: 310px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.image{
+    width: 100%
+}

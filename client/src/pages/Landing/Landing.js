@@ -1,10 +1,10 @@
 import React from 'react';
 import {Container} from "@material-ui/core";
-import Greeting from "../components/Landing/Greeting";
-import AboutUs from "../components/Landing/AboutUs";
-import BreedCollection from "../components/Landing/BreedCollection";
-import ComparisonTool from "../components/Landing/ComparisonTool";
-import Blog from "../components/Landing/Blog";
+import Greeting from "./Greeting";
+import AboutUs from "./AboutUs";
+import BreedCollection from "./BreedCollection";
+import ComparisonTool from "./ComparisonTool";
+import Blog from "./Blog";
 
 const Landing = () => {
     return (
