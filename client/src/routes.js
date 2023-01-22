@@ -12,8 +12,8 @@ import Admin from "./pages/Admin";
 import Auth from "./pages/Auth";
 import Author from "./pages/Author";
 import Saved from "./pages/Saved";
-import Breeds from "./pages/Breeds";
-import BreedInfo from "./pages/BreedInfo";
+import Breeds from "./pages/Breeds/Breeds";
+import BreedInfo from "./pages/BreedInfo/BreedInfo";
 import Landing from "./pages/Landing/Landing";
 import Blog from "./pages/Blog";
 import About from "./pages/About";
@@ -51,7 +51,7 @@ export const publicRoutes = [
         Component: Breeds
     },
     {
-        path: BREED_INFO_ROUTE,
+        path: BREED_INFO_ROUTE + "/:id",
         Component: BreedInfo
     },
     {

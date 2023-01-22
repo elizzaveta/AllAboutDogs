@@ -15,6 +15,9 @@ export const theme = createTheme({
         subtitle1:{
             fontSize: 16
         },
+        subtitle2:{
+            fontSize: 12
+        },
         fontFamily:[
             'Raleway'
         ]

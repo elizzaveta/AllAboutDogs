@@ -1,0 +1,10 @@
+div.radioGroup > * {
+    margin-left: 0;
+    margin-right: 0;
+}
+.radioGroupWrapper{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+

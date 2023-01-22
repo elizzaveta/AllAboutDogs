@@ -5,6 +5,7 @@ import AboutUs from "./AboutUs";
 import BreedCollection from "./BreedCollection";
 import ComparisonTool from "./ComparisonTool";
 import Blog from "./Blog";
+import ScrollUpButton from "../../components/ScrollUpButton";
 
 const Landing = () => {
     return (
@@ -14,6 +15,7 @@ const Landing = () => {
             <BreedCollection/>
             <ComparisonTool/>
             <Blog/>
+            {/*<ScrollUpButton/>*/}
         </div>
     );
 };
