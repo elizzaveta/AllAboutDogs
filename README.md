@@ -1,5 +1,5 @@
 # AllAboutDogs
-PERN Stack Web Application
+PERN Stack Web Application [in progress]
 
 ### Web App Features
 - Dog breeds collection
